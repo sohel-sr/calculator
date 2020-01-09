@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Calculator.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+  <title>Calculator</title>
+</head>
+<body>
+  <form action="" name="Calculator">
+    <input type="text" name="screen" value="" disabled>
+    <hr>
+    <input type="button" name="" value="&radic;" onclick="Calculator.screen.value = Math.sqrt(Calculator.screen.value)">
+    <input type="button" name="" value="CE" onclick="Calculator.screen.value = ''">
+    <input type="button" name="" value="C" onclick="Calculator.screen.value = ''">
+    <input type="button" name="" value="&larr;" onclick="Calculator.screen.value = Calculator.screen.value.slice(0,-1)">
+    <br>
+    <input type="button" name="" value="7" onclick="Calculator.screen.value +='7'">
+    <input type="button" name="" value="8" onclick="Calculator.screen.value +='8'">
+    <input type="button" name="" value="9" onclick="Calculator.screen.value +='9'">
+    <input type="button" name="" value="+" onclick="Calculator.screen.value +='+'">
+    <br>
+    <input type="button" name="" value="4" onclick="Calculator.screen.value +='4'">
+    <input type="button" name="" value="5" onclick="Calculator.screen.value +='5'">
+    <input type="button" name="" value="6" onclick="Calculator.screen.value +='6'">
+    <input type="button" name="" value="-" onclick="Calculator.screen.value +='-'">
+    <br>
+    <input type="button" name="" value="1" onclick="Calculator.screen.value +='1'">
+    <input type="button" name="" value="2" onclick="Calculator.screen.value +='2'">
+    <input type="button" name="" value="3" onclick="Calculator.screen.value +='3'">
+    <input type="button" name="" value="*" onclick="Calculator.screen.value +='*'">
+    <br>
+    <input type="button" name="" value="0" onclick="Calculator.screen.value +='0'">
+    <input type="button" name="" value="." onclick="Calculator.screen.value +='.'">
+    <input type="button" name="" value="=" onclick="Calculator.screen.value = eval(Calculator.screen.value)">
+    <input type="button" name="" value="&#247;" onclick="Calculator.screen.value +='&#247;'">
+    <br>
+  </form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
